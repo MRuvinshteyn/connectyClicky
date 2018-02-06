@@ -1,0 +1,24 @@
+<!-- Michael Ruvinshteyn -->
+<!-- SoftDev2 pd07 -->
+<!-- K00 -- I See a Red Door... -->
+<!-- 2018 - 02 - 02 -->
+
+<html>
+    <body>
+        <center>Choose your color: <input type="color" id="col">
+            <p id="coltext"></p>
+            <button id="colName">Change Color</button>
+            <p id="dotSize">Dot Size: <input type="number" min=1 value=1 id="size"> &nbsp; <button id="changeSize">Change Dot Size</button></p>
+            <p id="checked"><input type="checkbox" id="fillBool"> Fill in shapes/dots?</p>
+            <br>
+            <canvas id="slate" height="500" width="500" style="border: black thin solid;"></canvas>
+            <br>
+            <button id="toggleMode">Toggle Modes</button>
+            <button id="clearCanv">Clear Canvas</button>
+            <p id="mode">Current Mode: Dot</p>
+            <p id="status"></p>
+        </center>
+        
+        <script src="clickdraw.js"></script>
+    </body>
+</html>
